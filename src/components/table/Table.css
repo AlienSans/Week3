@@ -1,0 +1,33 @@
+.DataTable {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cellAction {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  height: 35px;
+}
+
+.cellAction * {
+  border-radius: 4px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+.DataTable .cellAction .actionBtnUpdate {
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.DataTable .cellAction .actionBtnDelete {
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
